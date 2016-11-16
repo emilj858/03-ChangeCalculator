@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+	align-self: center;
+}
+
+h1 {
+	text-align: left;
+	size: 600em;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 800px;
+	text-decoration: underline;
+	text-decoration: bold;
+  color: white;
+}
+
+ input{
+	width: 150px;
+	color: green;
+	align-content: center;
+}
+
+button {
+	align: left;
+	margin-top: 10px;
+	height: 30px;
+	width: 150px;
+	color: green;
+	font-size: 15px;
+	font-weight: bold;
+}
+th {
+	text-decoration: underline;
+	color: black;
+	;
+}
+thead {
+	text-align: : left;
+}
+.container {
+	align-content: left;
+	margin-left: 0px;
+	size: 300%;
+}
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: fill;
+  height: fill;
+  transform: translate(-50%, -50%);
+  z-index: -1000;
+}
+table {
+	opacity: .6;
+	max-width: : 100px;
+}
+p {
+	color: white;
+}
+.label {
+	color:white;
+}

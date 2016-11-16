@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Calulator</title>
+	<link rel="stylesheet" href="bulma.css">
+	<link rel ="stylesheet" href="style.css">
+</head>
+<body>
+<video class="video background" autoplay loop muted>
+	<source src="money2.mp4">
+
+</video>
+
+
+<h1>Change Calculator</h1>
+		<label class="label">How much is due for the sale?</label>
+		<div>
+			<input id="salePrice" type="text" name="Sale Price" />
+		</div>
+		<label class="label">How much has the customer given you?</label>
+		<div>
+			<input id="amountGiven" type="text" name="Amount Given" />
+		</div>	
+	<div>
+		<button id="calculateChange">Calculate Change</button>
+		<p id="change" type="text"> </p>
+	</div>		
+	</div>
+	<div class="container">
+	<table class= "table table-hover">
+		<thead>
+		<tr>
+			<th>Value</th>
+			<th>Quantity</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Dollars</td>
+				<td id="dollars"></td>
+			</tr>
+			<tr>
+				<td>Quarters</td>
+				<td id="quarters"></td>
+			</tr>
+			<tr>
+				<td>Dimes</td>
+				<td id="dimes"></td>
+			</tr>
+			<tr>
+				<td>Nickels</td>
+				<td id="nickels"></td>
+			</tr>	
+			<tr>
+				<td>Pennies</td>
+				<td id="pennies"></td>
+			</tr>
+	</div>
+		</tbody>
+	</table>
+<script src="index.js"></script>
+</body>
+</html>
